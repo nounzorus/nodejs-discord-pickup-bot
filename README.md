@@ -11,7 +11,7 @@ and add to var dicordtoken = "";
 
 Default timeout before player gets removed from queue is 7200 seconds
 
-You can make the script running peristent with "npm install forever"
+You can make the script running persistent with "npm install forever"
 
 usage: forever [start | stop | stopall | list] [options] SCRIPT [script options]
 
