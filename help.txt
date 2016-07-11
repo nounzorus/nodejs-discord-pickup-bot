@@ -1,0 +1,8 @@
+```Bot command list:
+!add *game mode* to add to queue
+!modes list of supported game modes
+!remove will remove you from queue
+!list shows players in queue
+You can only join one game mode queue on one channel at a time.
+Timeout for queue is two hours
+```
