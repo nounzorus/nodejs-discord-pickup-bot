@@ -114,8 +114,8 @@ bot.on('message', function(user, userID, channelID, message, event) {
 	if (message === "!list") {
 		/** remove old entries * */
 		var unix = Math.round(+new Date() / 1000);
-		storage
-				.forEach(function(key, value) {
+
+				storage.forEach(function(key, value) {
 					console.log(value.channelid);
 
 					var pasttime = unix - timeout;
